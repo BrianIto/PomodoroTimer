@@ -1,10 +1,94 @@
+body {
+}
+
 .App {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   text-align: center;
+  background-color: #B9361A;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.container_logo {
+  position: absolute;
+  top: -250px;
+  left: -30%;
+}
+
+.container_logo > img {
+  width: 80%;
+}
+
+.logo {
+  position: absolute;
+  top: 30%;
+  left: 32.5%;
+}
+
+.content {
+  font-family: 'Rubik';
+  font-weight: 500;
+  color: #FFF;
+  display: flex;
+  width: 40%;
+  text-align: center;
+  margin-left: 55%;
+  text-align: center;
+  flex-direction: column;
+}
+
+.content > h1 {
+  margin: 5% auto;
+  font-size: 7.5em;
+}
+
+.content > p {
+  margin: auto;
+  margin-top: 30%;
+  font-size: 2.3em;
+  font-weight: 400;
+}
+
+.logo > img {
+  width: 70%
+}
+
+.buttons > h2 {
+  font-weight: 400;
+  flex-grow: 1;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 5% 5% 5%;
+}
+
+button {
+  width: 75%;
+  margin-left: 12.5%;
+  padding: 3%;
+  background-color: #FFF;
+  color: #B9361A;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+  font-family: 'Rubik';
+  border-radius: 500px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 15px;
+  left: 35px;
+  color: #FFF;
+  font-family: 'Rubik';
 }
 
 @media (prefers-reduced-motion: no-preference) {
